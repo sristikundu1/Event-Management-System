@@ -1,4 +1,6 @@
 import { BsEnvelopePaper, BsFillTelephoneFill, BsGeoAltFill } from "react-icons/bs";
+import swal from 'sweetalert';
+
 const ContactUs = () => {
     const handlesubmit = e => {
         e.preventDefault();
@@ -8,7 +10,7 @@ const ContactUs = () => {
         const mesage = e.target.message.value;
 
         if(name,email,mesage,phone){
-            alert("Thanks for contact Us");
+            swal("Thank You For Contacting Us You Will Get A Response As Soon As Possible. ");
         }
     }
     

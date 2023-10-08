@@ -7,12 +7,14 @@ import EventDetails from "../Pages/EventDetails/EventDetails";
 import PrivateRoutes from "./PrivateRoutes";
 import Gallery from "../Pages/Gallery/Gallery";
 import ContactUs from "../Pages/ContactUs/ContactUs";
+import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 
 
 const Route = createBrowserRouter([
     {
         path:"/",
         element:<MainLayOut></MainLayOut>,
+        errorElement:<ErrorPage></ErrorPage>,
         children:[
             {
                path:"/",
