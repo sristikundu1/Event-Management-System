@@ -1,0 +1,46 @@
+[
+        {
+            "id": 1,
+            "service_name": "Birthday Party",
+            "image": "https://i.ibb.co/6FDnGJ0/Birthday-Banner.jpg",
+            "price": 500,
+            "short_description": "Celebrate your special day with our birthday party service. We offer themed decorations, delicious cakes, and entertainment to make your birthday unforgettable."
+          },
+
+          {
+            "id": 2,
+            "service_name": "Wedding Planning",
+            "image": "https://i.ibb.co/HHH2h2H/Wedding-Event.jpg",
+            "price": 5000,
+            "short_description": "Let us take care of every detail for your dream wedding. Our wedding planning service includes venue selection, catering, floral arrangements, and more."
+          },
+          {
+            "id": 3,
+            "service_name": "Anniversary Celebration",
+            "image": "https://i.ibb.co/tPnw4b8/Anniversary-Banner.jpg",
+            "price": 750,
+            "short_description": "Commemorate your love and commitment with an unforgettable anniversary celebration. We provide romantic settings, gourmet dinners, and personalized experiences."
+          },
+          {
+            "id": 4,
+            "service_name": "Baby Shower Planning",
+            "image": "https://i.ibb.co/C6XPkyJ/Baby-Shower-Banner.jpg",
+            "price": 400,
+            "short_description": "Expecting a little one? Let us plan your baby shower. We offer adorable themes, baby-themed decor, and fun games to welcome your bundle of joy."
+          },
+          {
+            "id": 5,
+            "service_name": "Retirement Party",
+            "image": "https://i.ibb.co/936STRh/Retirement-Banner.jpg",
+            "price": 600,
+            "short_description": "Celebrate the end of your career journey with a memorable retirement party. We provide retirement-themed decorations, speeches, and entertainment."
+          },
+          {
+            "id": 6,
+            "service_name": "Engagement Celebration",
+            "image": "https://i.ibb.co/3Sgtx74/engagement-Banner.jpg",
+            "price": 800,
+            "short_description": "Announce your engagement in style with our engagement celebration service. We offer elegant settings, engagement photo shoots, and a romantic atmosphere."
+          }
+           
+]
