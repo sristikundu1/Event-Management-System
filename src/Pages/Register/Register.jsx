@@ -43,17 +43,16 @@ const Register = () => {
 
     }
     return (
-        <div className="w-full h-screen flex items-start" >
-            <div className="relative w-3/5 h-full flex flex-col">
-                <div className="absolute top-[25%] left[10%] flex flex-col">
-                    {/* <h1 className="text-4xl text-[#33BBC5] font-extrabold my-4 ml-28">Turn Your Dreams Into Reality</h1> */}
+        <div className=" flex-col  md:flex-col md:w-full lg:flex lg:justify-start lg:flex-row lg:w-full lg:h-[800px]" >
+            <div className="w-full md:w-full lg:relative lg:w-3/5 h-full flex flex-col">
+                <div className="lg:absolute top-[25%] left[10%] flex flex-col">
 
                 </div>
-                <img className="w-full h-full object-cover" src="https://i.ibb.co/frht83R/Registration-Banner.png" alt="" />
+                <img className="w-full md:w-full md:h-full md:object-cover lg:w-full h-full object-cover" src="https://i.ibb.co/frht83R/Registration-Banner.png" alt="" />
             </div>
-            <div className=" w-2/5 h-full bg-slate-300 flex flex-col p-20 justify-between">
+            <div className="w-full md:w-full lg:w-2/5 h-full bg-slate-300 flex flex-col p-20 justify-between">
 
-                <div className="w-full flex flex-col">
+                <div className="w-full md:w-full lg:w-full flex flex-col">
                     <div className="w-full flex flex-col mb-10">
                         <h3 className="text-2xl font-semibold mb-4 text-[#419197]">Registration</h3>
                         <p className="text-sm mb-4 text-[#12486B] font-medium">Welcome !!! Please Enter Your Details.</p>
@@ -68,7 +67,7 @@ const Register = () => {
                                     type={showPassword ? "text" : "password"}
                                     name="password" id="" required />
                                 <span className='absolute top-6 right-2' onClick={() => setShowPassword(!showPassword)}>
-                                    {showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}
+                                    {showPassword ?  <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}
                                 </span>
                             </div>
 

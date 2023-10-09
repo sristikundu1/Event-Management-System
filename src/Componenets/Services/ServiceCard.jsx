@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const ServiceCard = ({service}) => {
-    const{id,image,service_name,price,short_description} = service || {}
+const ServiceCard = ({ service }) => {
+    const { id, image, service_name, price, short_description } = service || {}
     return (
         <div>
 
@@ -17,23 +17,24 @@ const ServiceCard = ({service}) => {
                 </div>
                 <div className="p-6">
                     <h5 className="mb-2 block font-sans text-xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased text-[#B01E68]">
-                    {service_name}
+                        {service_name}
                     </h5>
                     <p className="block mb-4 font-sans text-base font-light leading-relaxed text-inherit text-[#293462] antialiased">
-                    {short_description}
+                        {short_description}
                     </p>
                     <small className="font-semibold text-xl">{price}</small>
                 </div>
-                <div className="p-6 pt-0">
-                   <Link to={`/event/${id}`}>
-                   <button
-                        className="select-none rounded-lg bg-[#006E7F] py-3 px-6 text-center align-middle font-sans text-xs font-bold  text-white ">
-                        Details
-                    </button>
-                   </Link>
+                <div className="p-6 pt-0" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                    <Link to={`/event/${id}`}>
+                        <button
+                            className="select-none rounded-lg bg-[#006E7F] py-3 px-6 text-center align-middle font-sans text-xs font-bold  text-white ">
+                            Details
+                        </button>
+                    </Link>
                 </div>
             </div>
-           
+
 
 
         </div>

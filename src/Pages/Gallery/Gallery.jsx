@@ -29,9 +29,9 @@ const Gallery = () => {
             <div className='pb-4'>
                 <h2 className="font-bold text-4xl text-center text-[#086972] py-6">Give Us Your FeedBack.</h2>
                 <form onSubmit={handlereview}>
-                    <textarea className="w-1/2 my-2 p-3 outline-none border-b-4 rounded-lg  bg-[#EBFFFAs] md:ml-64 lg:ml-96" placeholder="Something about us.........." name="review" id="" cols="30" rows="6"></textarea>
+                    <textarea className="ml-24 w-1/2 my-2 p-3 outline-none border-b-4 rounded-lg  bg-[#EBFFFAs] md:ml-52 lg:ml-96" placeholder="Something about us.........." name="review" id="" cols="30" rows="6"></textarea>
 
-                    <button className="w-28 h-12 ml-[650px] bg-[#219C90] text-white font-semibold  border rounded-md flex justify-center text-center items-center">Submit</button>
+                    <button className="ml-36 md:ml-80 w-28 h-12 lg:ml-[650px] bg-[#219C90] text-white font-semibold  border rounded-md flex justify-center text-center items-center">Submit</button>
                 </form>
 
             </div>

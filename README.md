@@ -8,7 +8,7 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
 
 # 3 Features of event management website
-
+ 
 - This website provide 6 services.
 - To see the details of these services user need to login first.
 - There are a gallery page where user can see all images of different event .
