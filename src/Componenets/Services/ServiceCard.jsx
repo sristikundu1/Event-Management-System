@@ -7,7 +7,7 @@ const ServiceCard = ({service}) => {
         <div>
 
 
-            <div className="relative flex w-96 flex-col rounded-xl bg-[#F7FFE5] bg-clip-border text-gray-700 shadow-md mb-11">
+            <div className="md:w-80 lg:w-96 relative flex flex-col rounded-xl bg-[#F7FFE5] bg-clip-border text-gray-700 shadow-md mb-11">
                 <div className="relative mx-4 -mt-6 h-[205px] overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                     <img className=" w-96"
                         src={image}

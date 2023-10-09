@@ -6,11 +6,11 @@ const Gallery = () => {
         e.preventDefault();
         const mesage = e.target.review.value;
 
-        if(mesage){
+        if (mesage) {
             swal("Thank You For Your Valuable Comment.");
         }
     }
-    
+
     return (
         <div className="bg-[#D3E0DC]">
             <h2 className="font-bold text-4xl text-center text-[#086972] py-6">Memories</h2>
@@ -29,12 +29,14 @@ const Gallery = () => {
             <div className='pb-4'>
                 <h2 className="font-bold text-4xl text-center text-[#086972] py-6">Give Us Your FeedBack.</h2>
                 <form onSubmit={handlereview}>
-                <textarea className="w-1/2 my-2 p-3 outline-none border-b-4 rounded-lg  bg-[#EBFFFAs] md:ml-64 lg:ml-96" placeholder="Something about us.........." name="review" id="" cols="30" rows="6"></textarea>
-               
-               <button className="w-28 h-12 ml-[650px] bg-[#219C90] text-white font-semibold  border rounded-md flex justify-center text-center items-center">Submit</button>
+                    <textarea className="w-1/2 my-2 p-3 outline-none border-b-4 rounded-lg  bg-[#EBFFFAs] md:ml-64 lg:ml-96" placeholder="Something about us.........." name="review" id="" cols="30" rows="6"></textarea>
+
+                    <button className="w-28 h-12 ml-[650px] bg-[#219C90] text-white font-semibold  border rounded-md flex justify-center text-center items-center">Submit</button>
                 </form>
-            
+
             </div>
+
+            
         </div>
     );
 };
