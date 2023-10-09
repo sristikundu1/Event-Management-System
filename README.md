@@ -16,3 +16,5 @@ Currently, two official plugins are available:
 - first time user need to registration then user can log in with with that email and pass .
 - user password length can be maximum 15 and minimum 6 character and need to contain 1 uppercase,1 lowercase,1 special character,1 digit.
 - user can also register with his/her email.
+
+[Visit Live Link](https://phantasy-event-management.web.app/login)

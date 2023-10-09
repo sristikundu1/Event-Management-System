@@ -1,6 +1,7 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Providers/AuthProvider";
+import { FaEye, FaEyeSlash } from "react-icons/fa";
 
 const Login = () => {
     const { logIn } = useContext(AuthContext);
@@ -10,6 +11,7 @@ const Login = () => {
     
     const [success, setSuccess] = useState("");
     const [logINError, setLogInError] = useState("");
+    const [showPassword, setShowPassword] = useState(false);
 
     const handleLogIn = e => {
         e.preventDefault();
@@ -48,13 +50,22 @@ const Login = () => {
                                 </label>
                                 <input className="border-b-4 border-[#D83F31] bg-[#EE9322] rounded p-2 w-96" type="email" placeholder="Write Your Email" name="email" id="" required />
                             </div>
-                            <div>
-                                <label className="label">
+                         
+                            <div className='relative'>
+                            <label className="label">
                                     <span className="label-text text-[#D0E7D2] font-semibold text-xl">Password</span>
                                 </label>
-                                <input className="border-b-4 border-[#D83F31] bg-[#EE9322] rounded p-2 w-96" type="password" placeholder="Write Your Password" name="password" id="" required />
+                                <input className="border-b-4 border-[#D83F31] bg-[#EE9322] rounded p-2 w-96"
+                                    placeholder="Your Password"
+                                    type={showPassword ? "text" : "password"}
+                                    name="password" id="" required />
+                                <span className='absolute top-14 right-2' onClick={() => setShowPassword(!showPassword)}>
+                                    {showPassword ?  <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye> }
+                                </span>
                             </div>
                             <p className="mt-3">Do not Have Any Account?  <Link className="font-bold text-[#FFDBAA] underline" to="/register">Register</Link></p>
+
+                       
 
 
                             <button className="bg-[#219C90]  border rounded-lg h-10 w-36 mt-9 py-1 px-9 font-semibold text-white">Log In</button>

@@ -20,8 +20,8 @@ const EventDetails = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-4 gap-6 py-5 bg-[#E4E4D0]">
-                <div className="col-span-3">
+            <div className="md:flex flex-col lg:grid grid-cols-4 gap-6 py-5 bg-[#E4E4D0]">
+                <div className="lg:col-span-3">
                     <EventDetailsCard event={event}></EventDetailsCard>
 
                 </div>
@@ -39,7 +39,7 @@ const EventDetails = () => {
 
                     <div className="mx-10 my-5">
                     <h2 className="font-bold text-3xl text-center mb-12 text-[#4C0027]">Our Event Packages</h2>
-                    <div className="h-44 w-64 p-6 mt-3 border rounded-lg bg-clip-border bg-[#B5CB99] text-gray-700 shadow-md">
+                    <div className=" h-44 w-64 p-6 mt-3 border rounded-lg bg-clip-border bg-[#B5CB99] text-gray-700 shadow-md">
                         <h2 className="text-xl font-extrabold text-center my-3 text-[#003865]">Birthday Parties</h2>
                         <p className="flex items-center justify-center font-medium text-[#D36B00] my-3">from <BsCurrencyDollar></BsCurrencyDollar> 500</p>
                         <button className="pl-24 my-3 text-[#CD1818]"><BsChevronDown></BsChevronDown></button>

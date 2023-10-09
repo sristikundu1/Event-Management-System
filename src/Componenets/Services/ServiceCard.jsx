@@ -22,7 +22,7 @@ const ServiceCard = ({ service }) => {
                     <p className="block mb-4 font-sans text-base font-light leading-relaxed text-inherit text-[#293462] antialiased">
                         {short_description}
                     </p>
-                    <small className="font-semibold text-xl">{price}</small>
+                    <small className="font-semibold text-xl">$ {price}</small>
                 </div>
                 <div className="p-6 pt-0" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
                     data-aos-duration="2000">

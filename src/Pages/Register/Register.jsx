@@ -67,7 +67,7 @@ const Register = () => {
                                     type={showPassword ? "text" : "password"}
                                     name="password" id="" required />
                                 <span className='absolute top-6 right-2' onClick={() => setShowPassword(!showPassword)}>
-                                    {showPassword ?  <FaEye></FaEye> : <FaEyeSlash></FaEyeSlash>}
+                                    {showPassword ?  <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye> }
                                 </span>
                             </div>
 
